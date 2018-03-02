@@ -7,12 +7,16 @@ body{
 	margin-bottom: 83px;
 }
 header{
-	background: white;
+background: white;
+	border-bottom: 1px solid #ddd;
 	/*width: 100%;*/
 }
 h1,h2,h3,h4{
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.nav-tabs{
+	border-bottom: 0px;
 }
 /*h1{
 	font-size: 2em;
@@ -31,22 +35,38 @@ h5{
 }*/
 #header{
 	background: white;
-	width: 960px;
+	/*width: 960px;*/
 	margin: auto;
+
 	}
 #contactForm{
 	width:580px;
+}
+.navbar-brand{
+	background: #4aaaa5;
+}
+.navbar-brand:hover{
+		background: #4aaaa5;
+}
+.navbar-header{
+	background-color: #4aaaa5;
+}
+.tealBG{
+	background-color: #4aaaa5;
 }
 #myName{
 	/*font-family: 'Orbitron', sans-serif;*/
 	/*margin-left: 50px;*/
 	background-color: #4aaaa5;
 	color: white;
+	border: 1px, solid, gray;
 	/*float: left;*/
 	padding:0px 10px 0px 10px;
 	/*height: 89px;*/
 	/*vertical-align: center;*/
+	/*margin-right: 5px;*/
 	margin: 0px;
+	margin-right: 1px;
 	/*padding: 0px;*/
 	padding-right: 20px;
 		}
@@ -75,6 +95,7 @@ h5{
 	height: 3px;
 	background-color: #dddddd;
 }
+
 /*nav{
 	float: right;
 	height:50px;
@@ -132,7 +153,7 @@ ul#navlist li{
 /*float: right;*/
 text-align: center;
 /*padding: 10px;*/
-margin-top: 10px;
+/*margin-top: 10px;*/
 /*clear: both;*/
 }
 #connectMe hr{
@@ -186,8 +207,9 @@ form{
 }
 .contentArea{
 	clear: both;
-	width:960px;
+	/*width:960px;*/
 	margin: auto;
+
 }
 .contactDiv{
 	padding-bottom: 20px;
